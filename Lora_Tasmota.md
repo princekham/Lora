@@ -25,4 +25,10 @@ Ref:https://tasmota.github.io/docs/TasmotaClient/#getting-things-wired-up
 In my case, I will use ESP 8266 without 3.3 V regulator onboard. I will use external 5V to 3.3 V regulator
 because Ebyte LoRa E22 400T30D also needs 3.3 V input.
 I will use https://github.com/princekham/Tasmota/blob/main/BlinkSendCommand.ino program to connect ESP8266 to Arduino Pro Mini.
-The Pro Mini and Arduino 
+The Pro Mini and Lora E22 will connect through Software Serial with the following Arduino codes
+
+//#include <SoftwareSerial.h>
+//SoftwareSerial mySerial(D2, D3); // Arduino RX <-- e220 TX, Arduino TX --> e220 RX
+//LoRa_E22 e22ttl(&mySerial, D5, D7, D6); // AUX M0 M1
+
+
