@@ -12,12 +12,12 @@ For the Tranmitting and Receiving parts.
 ESP8266 will connect to Arduino Pro Mini with a Serial communition (Client TX, Client RX and Client RST) 
 The following is the pin connection of the two devices
 
-ESP	Arduino Pro Mini (3.3V)
-VCC	VCC
-GND	GND
-D2 (GPIO4)	RX (0)
-D1 (GPIO5)	TX (1)
-D4 (GPIO2)	Reset (RST)
+- ESP	Arduino Pro Mini (3.3V)
+- VCC	VCC
+- GND	GND
+- D2 (GPIO4)	RX (0)
+- D1 (GPIO5)	TX (1)
+- D4 (GPIO2)	Reset (RST)
 
 ![image](https://user-images.githubusercontent.com/16104631/219649515-b61a0874-ce58-4d22-b88a-9c6216a9d178.png)
 
