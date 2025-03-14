@@ -1,13 +1,14 @@
 This project is to connect Lora with Tasmota for easy configuration.
 This project will use the following items
 For the Tranmitting and Receiving parts.
+
 1. ESP8266
 2. Arduino Pro Mini (5 V) 
 3. Ebyte LoRa E22 400T30D
 4. 3.3 V regulator  
 5. 220 VAC to 5V regulator
 
-Project Descriptions
+## Project Descriptions
 ESP8266 will connect to Arduino Pro Mini with a Serial communition (Client TX, Client RX and Client RST) 
 The following is the pin connection of the two devices
 
